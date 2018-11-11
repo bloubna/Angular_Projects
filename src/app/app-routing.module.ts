@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import {RouterModule, Routes  } from '@angular/router';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { GalerieFilmsComponent } from './galerie-films/galerie-films.component';
 
 const routes: Routes = [
 {
@@ -10,6 +11,10 @@ component: SignUpComponent},
 {
     path: 'user',
   component: UserProfileComponent
+  },
+  {
+    path: 'film',
+    component: GalerieFilmsComponent
   },
   {
     path: '',

@@ -8,13 +8,19 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MenuComponent } from './menu/menu.component';
 import { AppRoutingModule } from './app-routing.module';
+import { GalerieFilmsComponent } from './galerie-films/galerie-films.component';
+import { MyStyleClassDirective } from './my-style-class.directive';
+import { DisplayFilmsDirective } from './display-films.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     UserProfileComponent,
-    MenuComponent
+    MenuComponent,
+    GalerieFilmsComponent,
+    MyStyleClassDirective,
+    DisplayFilmsDirective
   ],
   imports: [
     BrowserModule,

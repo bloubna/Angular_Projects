@@ -10,7 +10,6 @@ export class UserProfileComponent implements OnInit {
   user: User = new User();
   masque = true;
   constructor() { }
-
   ngOnInit() {
     this.user.name = 'Bouam';
     this.user.firstName = 'Loubna';
